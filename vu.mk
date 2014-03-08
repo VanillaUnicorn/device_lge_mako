@@ -7,6 +7,9 @@ $(call inherit-product, vendor/vanilla/configs/common_full_phone.mk)
 # Inherit GSM common stuff
 $(call inherit-product, vendor/vanilla/configs/gsm.mk)
 
+# Mako Overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/vanilla/overlay/lge/mako
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mako
 PRODUCT_NAME := vu_mako
