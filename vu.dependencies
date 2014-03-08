@@ -1,1 +1,6 @@
-#placeholder to fix build
+[
+ {
+   "repository": "android_kernel_google_msm",
+   "target_path": "kernel/google/msm"
+ }
+]
