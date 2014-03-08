@@ -2,7 +2,7 @@
 $(call inherit-product, device/lge/mako/full_mako.mk)
 
 # Inherit Vanilla Unicorn common bits
-$(call inherit-product, vendor/vanilla/configs/common.mk)
+$(call inherit-product, vendor/vanilla/configs/common_full_phone.mk)
 
 # Inherit GSM common stuff
 $(call inherit-product, vendor/vanilla/configs/gsm.mk)
